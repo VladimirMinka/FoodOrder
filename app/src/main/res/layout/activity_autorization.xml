@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvauthorization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="78dp"
+        android:fontFamily="@font"
+        android:text="@string/authorization"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="124dp"
+        android:fontFamily="sans-serif"
+        android:text="Укажите свой телефонный номер,\nчтобы сделать заказ"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="@string/phonenumber"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnAuthorization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/green"
+        android:elevation="40dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/button_authorization"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="562dp"
+        android:text="@string/tv_authorization"
+        android:textColor="@color/design_default_color_error" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="600dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/agreement" />
+
+</FrameLayout>
